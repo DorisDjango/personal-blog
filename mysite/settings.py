@@ -25,8 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #then make an .env file in the same directory where manage.py is
 #you then cut and paste the security key into the .env file
 #then import config from the decouple library
-from decouple import config
-SECRET_KEY = config("SECURITY_KEY")
+#from decouple import config
+#SECRET_KEY = config("SECURITY_KEY")
+SECRET_KEY = 'django-insecure-$)q%4d_ea$a8wmc-&6ken8)q=3xecltzjq*=run2h#f569eggl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
